@@ -1,0 +1,15 @@
+{
+  "inputConfig": {
+    "gcsSource": {
+       "inputUris": [ "gs://defaultBucketName/batch_prediction.csv" ]
+    }
+  },
+  "outputConfig": {
+    "gcsDestination": {
+      "outputUriPrefix": "gs://defaultBucketName/output_dir"
+    }
+  },
+  "params": {
+    "score_threshold": "0.90"
+  }
+}
