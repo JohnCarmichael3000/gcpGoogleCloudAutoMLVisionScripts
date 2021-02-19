@@ -8,9 +8,9 @@ There was still a fair amount of leg work to make batch prediction work from a v
 
 runlogicinstall.sh - run this script for the first time after starting your Google Cloud Shell in order to complete the additional steps of installing FFMpeg, etc first.
 
-runlogic.sh - run this script to launch a Google AutoML Vision prediction (object identification) job for your specified video.
+runlogic.sh - run this script to launch a Google AutoML Vision prediction (object identification) job for your specified video. Launches prediction job consisting of frame images from a specified video. Script creates frames images from video, creates job request.json file, creates bucket, moves images to bucket, creates batch_prediction.csv file, and so on all the way through to submitting the job.
 
-processResults.sh - run this script to see the completion status of your job and if completed then process the results into a more readily usable format
+processResults.sh - run this script to easily see the completion status of your job and if the job is completed then it will process the job results into a more readily usable format.
 
 vcp.sh - this can be used to easily copy part of a video outputting a new video with a simple command and without having to know FFMpeg commands (I didn't write this script)
 
