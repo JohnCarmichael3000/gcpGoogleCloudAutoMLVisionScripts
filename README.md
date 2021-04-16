@@ -16,6 +16,6 @@ processResults.sh - run this script to easily see the completion status of your 
 
 vcp.sh - this can be used to easily copy part of a video outputting a new video with a simple command and without having to know FFMpeg commands (I didn't write this script)
 
-Anyways, thrown together pretty quick but it works. Prediction was fairly good for medium and large Waldos, smaller ones needed more tweaking. 
+Anyways, thrown together pretty quick but it works. Prediction was fairly good for medium and large sized subjects, smaller ones need more work.
 
 No guarantees whatsoever, use at your own risk.
