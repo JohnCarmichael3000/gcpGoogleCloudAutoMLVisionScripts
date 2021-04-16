@@ -4,6 +4,8 @@ GCP Google Cloud AutoML Vision Scripts for batch prediction / object detection i
 
 Experimenting with GCP Google Cloud AutoML Vision I found that AutoML does pretty much all heavy lifting of object identitification. Hurray! My idea was to try it out with images generated as individual frames from videos. The most convenient source of videos was online ones (eg: Youtube). I trained a model with some Where's Waldo pictures and then ran the frames from some videos from Youtube featuring people dressed as Waldo as a AutoML Prediction job.
 
+Or potentially identifying/finding products in videos. Any ideas along that sort of line with an easily identitifiable subject type and then you could script in as many videos as your wanted for analysis.
+
 There was still a fair amount of leg work to make batch prediction work from a video URL and examine the results. These scripts automate these processes.
 
 runlogicinstall.sh - run this script for the first time after starting your Google Cloud Shell in order to complete the additional steps of installing FFMpeg, etc first.
