@@ -1,6 +1,6 @@
 # gcpGoogleCloudAutoMLVisionScripts
 
-John Carmichael wrote some GCP Google Cloud AutoML Vision Scripts for batch prediction / object detection in online videos
+John Carmichael wrote some Google Cloud GCP AutoML Vision Scripts for batch prediction / object detection in online videos
 
 Experimenting with GCP Google Cloud AutoML Vision I found that AutoML does pretty much all heavy lifting of object identitification. Hurray! My idea was to try it out with images generated as individual frames from videos. The most convenient source of videos was online ones (eg: Youtube). I trained a model with some Where's Waldo pictures and then ran the frames from some videos from Youtube featuring people dressed as Waldo as a AutoML Prediction job.
 
